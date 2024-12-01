@@ -10,7 +10,7 @@ from langchain_google_genai import GoogleGenerativeAI
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Initialize Google Generative AI with API Key
-API_KEY = 'AIzaSyArOEt0GNyxnd6-h1i4V-Ur0O7iiEh53V8'  # Replace with your valid API key
+API_KEY = 'Google-Api-Key'  # Replace with your valid API key
 os.environ["GOOGLE_API_KEY"] = API_KEY
 
 llm = GoogleGenerativeAI(model="gemini-1.5-pro", api_key=API_KEY)
